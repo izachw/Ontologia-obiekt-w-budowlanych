@@ -1,0 +1,2277 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/izach/ontologies/2020/2/ontologia_obiektów_budowlanych"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/izach/ontologies/2020/2/ontologia_obiektów_budowlanych">
+    <Prefix name="" IRI="http://www.semanticweb.org/izach/ontologies/2020/2/ontologia_obiektów_budowlanych"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="pl">ontologia obiektów budowlanych</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Pipeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#barakowoz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budowla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budowla_hydrotechniczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budowla_obronna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budowla_ochronna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budowla_sportowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budowla_ziemna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budynek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budynek_mieszkalny_jednorodzinny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budynek_w_zabudowie_blizniaczej"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budynek_w_zabudowie_grupowej"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budynek_w_zabudowie_szeregowej"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#budynek_wolnostojacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cieplociag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cmentarz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#czasowe_uzytkowanie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#czesc_budowlana_urzadzenia_technicznego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dlugosc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dokumentacja_budowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dokumentacja_powykonawcza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drabinka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#droga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dziennik_budowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dziennik_montazu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#estakada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#figura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fundament"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fundament_pod_maszyne_lub_urzadzenie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gazociag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grunt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hustawka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#instalacja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kabel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kanal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kanal_technologiczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kanalizacja_kablowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kapliczka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kiosk_uliczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_kompozytowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_metalowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_oporowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_posadowiona_na_gruncie_wraz_z_elementami_konstrukcji"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_z_infrastrukturą_zasilającą"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_z_instalacją_radiokomunikacyjną"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_z_kontenerem_technicznym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_z_przyczepą"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_z_rusztem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konstrukcja_z_szafą_telekomunikacyjną"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#krzyz_przydrozny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ksiazka_obmiarow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linia_elektroenergetyczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linia_kablowa_nadziemna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linia_kablowa_podziemna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linia_kolejowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lokal_mieszkalny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lokal_uzytkowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lotnisko"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#montaz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#most"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nadbudowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nadziemne_przejscie_dla_pieszych"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obiekt_architektury_ogrodowej"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obiekt_budowlany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obiekt_kontenerowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obiekt_kultu_religijnego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obiekt_liniowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obiekt_malej_architektury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obiekt_rekreacyjny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obiekt_utrzymania_porzadku"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obszar_oddzialywania_obiektu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oczyszczalnia_sciekow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#odbudowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ogrodzenie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operat_geodezyjny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#opis_do_realizacji_obiektu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organ_samorzadu_zawodowego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parametr_techniczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parametr_uzytkowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pawilon_sprzedazy_ulicznej"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#piaskownica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plac_pod_smietnik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plac_postojowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#podziemne_przejscie_dla_pieszych"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pomnik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#posag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#powierzchnia_calkowita_budynku"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#powloka_pneumatyczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pozwolenie_na_budowe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prawo_do_dysponowania_nieruchomoscia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#projekt_budowlany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protokol_odbiorow_czesciowych_i_koncowych"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#przebudowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#przejazd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#przekrycie_namiotowe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#przeniesienie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#przepust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#przestrzen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#przylacze"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#remont"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roboty_budowlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rozbiorka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rozbudowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rysunek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#siec_techniczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#siec_uzbrojenia_terenu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#skladowisko_odpadow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smietnik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stacja_uzdatniania_wody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strzelnica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#teren_budowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#teren_zamkniety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trakcja_elektroenrgetyczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tunel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#urzadzenie_budowlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#urzadzenie_instalacyjne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#urzadzenie_reklamowe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#urzadzenie_rozrywkowe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#urzadzenie_sluzace_gromadzeniu_lub_oczyszczaniu_sciekow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#urzadzenie_techniczne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wal_przeciwpowodziowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wiadukt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wodociag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wodotrysk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wolno_stojaca_instalacja_przemyslowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wolno_stojaca_trwale_zwiazana_z_gruntem_tablica_reklamowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wolno_stojacy_maszt_antenowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wyrob_budowlany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zbiornik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zjazd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jest_nietrwale_zwiazany_z"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jest_przewidziany_do"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jest_przeznaczony_do"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jest_trwale_zwiazany_z"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jest_wydzielony_z"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jest_wzniesiony_z"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ma_dach"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ma_fundament"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ma_instalacje"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ma_kabel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ma_lokal_mieszkalny"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ma_lokal_uzytkowy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nastepuje_zmiana"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ma_dlugosc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ma_miejsce"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ma_powierzchnie_calkowita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#budowla_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#budynek_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dach_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fundament_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#instalacja_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#instalacja_11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wodociag_1"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#budowla"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#obiekt_budowlany"/>
+            <ObjectComplementOf>
+                <Class IRI="#budynek"/>
+            </ObjectComplementOf>
+            <ObjectComplementOf>
+                <Class IRI="#obiekt_malej_architektury"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#budynek"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#obiekt_budowlany"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#jest_trwale_zwiazany_z"/>
+                    <Class IRI="#grunt"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#jest_wydzielony_z"/>
+                    <Class IRI="#przestrzen"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#ma_dach"/>
+                    <Class IRI="#dach"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#ma_fundament"/>
+                    <Class IRI="#fundament"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#budynek_mieszkalny_jednorodzinny"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#ma_lokal_mieszkalny"/>
+                    <Class IRI="#lokal_mieszkalny"/>
+                </ObjectExactCardinality>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#ma_lokal_uzytkowy"/>
+                    <Class IRI="#lokal_uzytkowy"/>
+                </ObjectExactCardinality>
+            </ObjectIntersectionOf>
+            <ObjectMaxCardinality cardinality="2">
+                <ObjectProperty IRI="#ma_lokal_mieszkalny"/>
+                <Class IRI="#lokal_mieszkalny"/>
+            </ObjectMaxCardinality>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#obiekt_budowlany"/>
+        <ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#jest_wzniesiony_z"/>
+                    <Class IRI="#wyrob_budowlany"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#ma_instalacje"/>
+                    <Class IRI="#instalacja"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectUnionOf>
+                <Class IRI="#budowla"/>
+                <Class IRI="#budynek"/>
+                <Class IRI="#obiekt_malej_architektury"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#obiekt_budowlany"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#jest_przewidziany_do"/>
+                    <Class IRI="#przeniesienie"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#jest_przewidziany_do"/>
+                    <Class IRI="#rozbiorka"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#jest_nietrwale_zwiazany_z"/>
+                <Class IRI="#grunt"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#jest_przeznaczony_do"/>
+                <Class IRI="#czasowe_uzytkowanie"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Pipeline"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barakowoz"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budowla"/>
+        <Class IRI="#obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budowla_hydrotechniczna"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budowla_obronna"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budowla_ochronna"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budowla_sportowa"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budowla_ziemna"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek"/>
+        <Class IRI="#obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#jest_trwale_zwiazany_z"/>
+            <Class IRI="#grunt"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#jest_wydzielony_z"/>
+            <Class IRI="#przestrzen"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ma_dach"/>
+            <Class IRI="#dach"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ma_fundament"/>
+            <Class IRI="#fundament"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek_mieszkalny_jednorodzinny"/>
+        <Class IRI="#budynek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek_w_zabudowie_blizniaczej"/>
+        <Class IRI="#budynek_mieszkalny_jednorodzinny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek_w_zabudowie_grupowej"/>
+        <Class IRI="#budynek_mieszkalny_jednorodzinny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek_w_zabudowie_szeregowej"/>
+        <Class IRI="#budynek_mieszkalny_jednorodzinny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#budynek_wolnostojacy"/>
+        <Class IRI="#budynek_mieszkalny_jednorodzinny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cieplociag"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cmentarz"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#czesc_budowlana_urzadzenia_technicznego"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dokumentacja_powykonawcza"/>
+        <Class IRI="#dokumentacja_budowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drabinka"/>
+        <Class IRI="#obiekt_rekreacyjny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#droga"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dziennik_budowy"/>
+        <Class IRI="#dokumentacja_budowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dziennik_montazu"/>
+        <Class IRI="#dokumentacja_budowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#estakada"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#figura"/>
+        <Class IRI="#obiekt_kultu_religijnego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fundament_pod_maszyne_lub_urzadzenie"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gazociag"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hustawka"/>
+        <Class IRI="#obiekt_rekreacyjny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kanal"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kanal_technologiczny"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kanalizacja_kablowa"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kanalizacja_kablowa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ma_kabel"/>
+            <Class IRI="#kabel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapliczka"/>
+        <Class IRI="#obiekt_kultu_religijnego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kiosk_uliczny"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_kompozytowa"/>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_metalowa"/>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_oporowa"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_posadowiona_na_gruncie_wraz_z_elementami_konstrukcji"/>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_z_infrastrukturą_zasilającą"/>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_z_instalacją_radiokomunikacyjną"/>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_z_kontenerem_technicznym"/>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_z_przyczepą"/>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_z_rusztem"/>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konstrukcja_z_szafą_telekomunikacyjną"/>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#krzyz_przydrozny"/>
+        <Class IRI="#obiekt_kultu_religijnego"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ksiazka_obmiarow"/>
+        <Class IRI="#dokumentacja_budowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linia_elektroenergetyczna"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linia_kablowa_nadziemna"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linia_kablowa_podziemna"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linia_kolejowa"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lotnisko"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#montaz"/>
+        <Class IRI="#roboty_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#most"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nadbudowa"/>
+        <Class IRI="#budowa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nadziemne_przejscie_dla_pieszych"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obiekt_architektury_ogrodowej"/>
+        <Class IRI="#obiekt_malej_architektury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obiekt_budowlany"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#jest_wzniesiony_z"/>
+            <Class IRI="#wyrob_budowlany"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obiekt_budowlany"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ma_instalacje"/>
+            <Class IRI="#instalacja"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obiekt_kontenerowy"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obiekt_kultu_religijnego"/>
+        <Class IRI="#obiekt_malej_architektury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obiekt_liniowy"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obiekt_malej_architektury"/>
+        <Class IRI="#obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obiekt_rekreacyjny"/>
+        <Class IRI="#obiekt_malej_architektury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obiekt_utrzymania_porzadku"/>
+        <Class IRI="#obiekt_malej_architektury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oczyszczalnia_sciekow"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#odbudowa"/>
+        <Class IRI="#budowa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ogrodzenie"/>
+        <Class IRI="#urzadzenie_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operat_geodezyjny"/>
+        <Class IRI="#dokumentacja_budowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#opis_do_realizacji_obiektu"/>
+        <Class IRI="#dokumentacja_budowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pawilon_sprzedazy_ulicznej"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#piaskownica"/>
+        <Class IRI="#obiekt_rekreacyjny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plac_pod_smietnik"/>
+        <Class IRI="#urzadzenie_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plac_postojowy"/>
+        <Class IRI="#urzadzenie_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#podziemne_przejscie_dla_pieszych"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pomnik"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#posag"/>
+        <Class IRI="#obiekt_architektury_ogrodowej"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#powloka_pneumatyczna"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#projekt_budowlany"/>
+        <Class IRI="#dokumentacja_budowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protokol_odbiorow_czesciowych_i_koncowych"/>
+        <Class IRI="#dokumentacja_budowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#przebudowa"/>
+        <Class IRI="#roboty_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#przebudowa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#nastepuje_zmiana"/>
+            <Class IRI="#parametr_techniczny"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#przebudowa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#nastepuje_zmiana"/>
+            <Class IRI="#parametr_uzytkowy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#przejazd"/>
+        <Class IRI="#urzadzenie_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#przekrycie_namiotowe"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#przenosny_wolno_stojacy_maszt_antenowy"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#przepust"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#przylacze"/>
+        <Class IRI="#urzadzenie_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#remont"/>
+        <Class IRI="#roboty_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roboty_budowlane"/>
+        <Class IRI="#budowa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rozbiorka"/>
+        <Class IRI="#roboty_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rozbudowa"/>
+        <Class IRI="#budowa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rysunek"/>
+        <Class IRI="#dokumentacja_budowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#siec_techniczna"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#siec_uzbrojenia_terenu"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#skladowisko_odpadow"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smietnik"/>
+        <Class IRI="#obiekt_utrzymania_porzadku"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stacja_uzdatniania_wody"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strzelnica"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trakcja_elektroenrgetyczna"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tunel"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+        <Class IRI="#obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#jest_nietrwale_zwiazany_z"/>
+            <Class IRI="#grunt"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#jest_przewidziany_do"/>
+            <Class IRI="#przeniesienie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#jest_przewidziany_do"/>
+            <Class IRI="#rozbiorka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#jest_przeznaczony_do"/>
+            <Class IRI="#czasowe_uzytkowanie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#urzadzenie_instalacyjne"/>
+        <Class IRI="#urzadzenie_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#urzadzenie_reklamowe"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#urzadzenie_rozrywkowe"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#urzadzenie_sluzace_gromadzeniu_lub_oczyszczaniu_sciekow"/>
+        <Class IRI="#urzadzenie_budowlane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#urzadzenie_techniczne"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wal_przeciwpowodziowy"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wiadukt"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wodociag"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wodotrysk"/>
+        <Class IRI="#obiekt_architektury_ogrodowej"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wolno_stojaca_instalacja_przemyslowa"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wolno_stojaca_trwale_zwiazana_z_gruntem_tablica_reklamowa"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wolno_stojacy_maszt_antenowy"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zbiornik"/>
+        <Class IRI="#budowla"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zjazd"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#budowla"/>
+        <Class IRI="#budynek"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#budowla"/>
+        <Class IRI="#obiekt_malej_architektury"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#budynek"/>
+        <Class IRI="#obiekt_malej_architektury"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#budynek"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#kabel"/>
+        <Class IRI="#obiekt_budowlany"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#budowla"/>
+        <NamedIndividual IRI="#budowla_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#obiekt_budowlany"/>
+        <NamedIndividual IRI="#budowla_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#budynek"/>
+        <NamedIndividual IRI="#budynek_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#obiekt_budowlany"/>
+        <NamedIndividual IRI="#budynek_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dach"/>
+        <NamedIndividual IRI="#dach_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fundament"/>
+        <NamedIndividual IRI="#fundament_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#instalacja"/>
+        <NamedIndividual IRI="#instalacja_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#instalacja"/>
+        <NamedIndividual IRI="#instalacja_11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wodociag"/>
+        <NamedIndividual IRI="#wodociag_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ma_instalacje"/>
+        <NamedIndividual IRI="#budowla_11"/>
+        <NamedIndividual IRI="#instalacja_11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ma_dach"/>
+        <NamedIndividual IRI="#budynek_1"/>
+        <NamedIndividual IRI="#dach_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ma_fundament"/>
+        <NamedIndividual IRI="#budynek_1"/>
+        <NamedIndividual IRI="#fundament_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ma_instalacje"/>
+        <NamedIndividual IRI="#budynek_1"/>
+        <NamedIndividual IRI="#instalacja_1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ma_powierzchnie_calkowita"/>
+        <NamedIndividual IRI="#budynek_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">459.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ma_dlugosc"/>
+        <NamedIndividual IRI="#wodociag_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">11.0</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jest_nietrwale_zwiazany_z"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jest_przewidziany_do"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jest_przeznaczony_do"/>
+        <Class IRI="#tymczasowy_obiekt_budowlany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jest_trwale_zwiazany_z"/>
+        <Class IRI="#budynek"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jest_wydzielony_z"/>
+        <Class IRI="#budynek"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jest_wzniesiony_z"/>
+        <Class IRI="#obiekt_budowlany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ma_dach"/>
+        <Class IRI="#budynek"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ma_fundament"/>
+        <Class IRI="#budynek"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ma_instalacje"/>
+        <Class IRI="#obiekt_budowlany"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ma_kabel"/>
+        <Class IRI="#kanalizacja_kablowa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ma_lokal_uzytkowy"/>
+        <Class IRI="#budynek_mieszkalny_jednorodzinny"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nastepuje_zmiana"/>
+        <Class IRI="#przebudowa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jest_nietrwale_zwiazany_z"/>
+        <Class IRI="#grunt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jest_przewidziany_do"/>
+        <Class IRI="#przeniesienie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jest_przewidziany_do"/>
+        <Class IRI="#rozbiorka"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jest_przeznaczony_do"/>
+        <Class IRI="#czasowe_uzytkowanie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jest_trwale_zwiazany_z"/>
+        <Class IRI="#grunt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jest_wydzielony_z"/>
+        <Class IRI="#przestrzen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jest_wzniesiony_z"/>
+        <Class IRI="#wyrob_budowlany"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ma_dach"/>
+        <Class IRI="#dach"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ma_fundament"/>
+        <Class IRI="#fundament"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ma_instalacje"/>
+        <Class IRI="#instalacja"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ma_kabel"/>
+        <Class IRI="#kabel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ma_lokal_mieszkalny"/>
+        <Class IRI="#lokal_mieszkalny"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ma_lokal_uzytkowy"/>
+        <Class IRI="#lokal_uzytkowy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nastepuje_zmiana"/>
+        <Class IRI="#parametr_techniczny"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nastepuje_zmiana"/>
+        <Class IRI="#parametr_uzytkowy"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#ma_dlugosc"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#ma_miejsce"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#ma_powierzchnie_calkowita"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ma_dlugosc"/>
+        <Class IRI="#obiekt_liniowy"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ma_miejsce"/>
+        <Class IRI="#budowa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ma_powierzchnie_calkowita"/>
+        <Class IRI="#obiekt_budowlany"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ma_powierzchnie_calkowita"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pipeline</IRI>
+        <Literal xml:lang="pl">rurociąg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#barakowoz</IRI>
+        <Literal xml:lang="pl">barakowóz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#budowa</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć wykonywanie obiektu budowlanego w określonym miejscu, a także odbudowę, rozbudowę, nadbudowę obiektu budowlanego.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budowa</IRI>
+        <Literal xml:lang="pl">budowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#budowla</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć każdy obiekt budowlany niebędący budynkiem lub obiektem małej architektury, jak: obiekty liniowe, lotniska, mosty, wiadukty, estakady, tunele, przepusty, sieci techniczne, wolno stojące maszty antenowe, wolno stojące trwale związane z gruntem tablice reklamowe i urządzenia reklamowe, budowle ziemne, obronne (fortyfikacje), ochronne, hydrotechniczne, zbiorniki, wolno stojące instalacje przemysłowe lub urządzenia techniczne, oczyszczalnie ścieków, składowiska odpadów, stacje uzdatniania wody, konstrukcje oporowe, nadziemne i podziemne przejścia dla pieszych, sieci uzbrojenia terenu, budowle sportowe, cmentarze, pomniki, a także części budowlane urządzeń technicznych (kotłów, pieców przemysłowych, elektrowni jądrowych, elektrowni wiatrowych i innych urządzeń) oraz fundamenty pod maszyny i urządzenia, jako odrębne pod względem technicznym części przedmiotów składających się na całość użytkową.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budowla</IRI>
+        <Literal xml:lang="pl">budowla</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budowla_hydrotechniczna</IRI>
+        <Literal xml:lang="pl">budowla hydrotechniczna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budowla_obronna</IRI>
+        <Literal xml:lang="pl">budowla obronna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budowla_ochronna</IRI>
+        <Literal xml:lang="pl">budowla ochronna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budowla_sportowa</IRI>
+        <Literal xml:lang="pl">budowla sportowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budowla_ziemna</IRI>
+        <Literal xml:lang="pl">budowla ziemna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#budynek</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć taki obiekt budowlany, który jest trwale związany z gruntem, wydzielony z przestrzeni za pomocą przegród budowlanych oraz posiada fundamenty i dach.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budynek</IRI>
+        <Literal xml:lang="pl">budynek</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#budynek_mieszkalny_jednorodzinny</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć budynek wolno stojący albo budynek w zabudowie bliźniaczej, szeregowej lub grupowej, służący zaspokajaniu potrzeb mieszkaniowych, stanowiący konstrukcyjnie samodzielną całość, w którym dopuszcza się wydzielenie nie więcej niż dwóch lokali mieszkalnych albo jednego lokalu mieszkalnego i lokalu użytkowego o powierzchni całkowitej nieprzekraczającej 30% powierzchni całkowitej budynku.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budynek_mieszkalny_jednorodzinny</IRI>
+        <Literal xml:lang="pl">budynek mieszkalny jednorodzinny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budynek_w_zabudowie_blizniaczej</IRI>
+        <Literal xml:lang="pl">budynek w zabudowie bliźniaczej</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budynek_w_zabudowie_grupowej</IRI>
+        <Literal xml:lang="pl">budynek w zabudowie grupowej</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budynek_w_zabudowie_szeregowej</IRI>
+        <Literal xml:lang="pl">budynek w zabudowie szeregowej</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#budynek_wolnostojacy</IRI>
+        <Literal xml:lang="pl">budynek wolnostojący</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cieplociag</IRI>
+        <Literal xml:lang="pl">ciepłociąg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cmentarz</IRI>
+        <Literal xml:lang="pl">cmentarz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#czasowe_uzytkowanie</IRI>
+        <Literal xml:lang="pl">czasowe użytkowanie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#czesc_budowlana_urzadzenia_technicznego</IRI>
+        <Literal xml:lang="pl">część budowlana urządzenia technicznego</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dach</IRI>
+        <Literal xml:lang="pl">dach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dlugosc</IRI>
+        <Literal xml:lang="pl">długość</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#dokumentacja_budowy</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć pozwolenie na budowę wraz z załączonym projektem budowlanym, dziennik budowy, protokoły odbiorów częściowych i końcowych, w miarę potrzeby, rysunki i opisy służące realizacji obiektu, operaty geodezyjne i książkę obmiarów, a w przypadku realizacji obiektów metodą montażu – także dziennik montażu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dokumentacja_budowy</IRI>
+        <Literal xml:lang="pl">dokumentacja budowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#dokumentacja_powykonawcza</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć dokumentację budowy z naniesionymi zmianami dokonanymi w toku wykonywania robót oraz geodezyjnymi pomiarami powykonawczymi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dokumentacja_powykonawcza</IRI>
+        <Literal xml:lang="pl">dokumentacja powykonawcza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#drabinka</IRI>
+        <Literal xml:lang="pl">drabinka</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#droga</IRI>
+        <Literal xml:lang="pl">droga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dziennik_budowy</IRI>
+        <Literal xml:lang="pl">dziennik budowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dziennik_montazu</IRI>
+        <Literal xml:lang="pl">dziennik montażu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#estakada</IRI>
+        <Literal xml:lang="pl">estakada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#figura</IRI>
+        <Literal xml:lang="pl">figura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fundament</IRI>
+        <Literal xml:lang="pl">fundament</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fundament_pod_maszyne_lub_urzadzenie</IRI>
+        <Literal xml:lang="pl">fundament pod maszynę lub urządzenie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gazociag</IRI>
+        <Literal xml:lang="pl">gazociąg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#grunt</IRI>
+        <Literal xml:lang="pl">grunt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hustawka</IRI>
+        <Literal xml:lang="pl">huśtawka</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#instalacja</IRI>
+        <Literal xml:lang="pl">instalacja</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#jest_nietrwale_zwiazany_z</IRI>
+        <Literal xml:lang="pl">jest nietrwale związany z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#jest_przewidziany_do</IRI>
+        <Literal xml:lang="pl">jest przewidziany do</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#jest_przeznaczony_do</IRI>
+        <Literal xml:lang="pl">jest przeznaczony do</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#jest_trwale_zwiazany_z</IRI>
+        <Literal xml:lang="pl">jest trwale związany z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#jest_wydzielony_z</IRI>
+        <Literal xml:lang="pl">jest wydzielony z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#jest_wzniesiony_z</IRI>
+        <Literal xml:lang="pl">jest wzniesiony z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kabel</IRI>
+        <Literal xml:lang="pl">kabel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kanal</IRI>
+        <Literal xml:lang="pl">kanał</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kanal_technologiczny</IRI>
+        <Literal xml:lang="pl">kanał technologiczny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kanalizacja_kablowa</IRI>
+        <Literal xml:lang="pl">kanalizacja kablowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kapliczka</IRI>
+        <Literal xml:lang="pl">kapliczka</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#kiosk_uliczny</IRI>
+        <Literal xml:lang="pl">kiosk uliczny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_kompozytowa</IRI>
+        <Literal xml:lang="pl">konstrukcja kompozytowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_metalowa</IRI>
+        <Literal xml:lang="pl">konstrukcja metalowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_oporowa</IRI>
+        <Literal xml:lang="pl">konstrukcja oporowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_posadowiona_na_gruncie_wraz_z_elementami_konstrukcji</IRI>
+        <Literal xml:lang="pl">konstrukcja posadowiona na gruncie wraz elementami konstrukcji</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_z_infrastrukturą_zasilającą</IRI>
+        <Literal xml:lang="pl">konstrukcja z infrastrukturą zasilającą</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_z_instalacją_radiokomunikacyjną</IRI>
+        <Literal xml:lang="pl">konstrukcja z instalacją radiokomunikacyjną</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_z_kontenerem_technicznym</IRI>
+        <Literal xml:lang="pl">konstrukcja z kontenerem technicznym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_z_przyczepą</IRI>
+        <Literal xml:lang="pl">konstrukcja z przyczepą</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_z_rusztem</IRI>
+        <Literal xml:lang="pl">konstrukcja z rusztem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#konstrukcja_z_szafą_telekomunikacyjną</IRI>
+        <Literal xml:lang="pl">konstrukcja z szafą telekomunikacyjną</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#krzyz_przydrozny</IRI>
+        <Literal xml:lang="pl">krzyż przydrożny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ksiazka_obmiarow</IRI>
+        <Literal xml:lang="pl">książka obmiarów</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#linia_elektroenergetyczna</IRI>
+        <Literal xml:lang="pl">linia elektroenergetyczna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#linia_kablowa_nadziemna</IRI>
+        <Literal xml:lang="pl">linia kablowa nadziemna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#linia_kablowa_podziemna</IRI>
+        <Literal xml:lang="pl">linia kablowa podziemna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#linia_kolejowa</IRI>
+        <Literal xml:lang="pl">linia kolejowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lokal_mieszkalny</IRI>
+        <Literal xml:lang="pl">lokal mieszkalny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lokal_uzytkowy</IRI>
+        <Literal xml:lang="pl">lokal użytkowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lotnisko</IRI>
+        <Literal xml:lang="pl">lotnisko</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ma_dach</IRI>
+        <Literal xml:lang="pl">ma dach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ma_dlugosc</IRI>
+        <Literal xml:lang="pl">ma długość</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ma_fundament</IRI>
+        <Literal xml:lang="pl">ma fundament</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ma_instalacje</IRI>
+        <Literal xml:lang="pl">ma instalację</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ma_kabel</IRI>
+        <Literal xml:lang="pl">ma kabel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ma_lokal_mieszkalny</IRI>
+        <Literal xml:lang="pl">ma lokal mieszkalny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ma_lokal_uzytkowy</IRI>
+        <Literal xml:lang="pl">ma lokal użytkowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ma_miejsce</IRI>
+        <Literal xml:lang="pl">ma miejsce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ma_powierzchnie_calkowita</IRI>
+        <Literal xml:lang="pl">ma powierzchnię całkowitą</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#montaz</IRI>
+        <Literal xml:lang="pl">montaż</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#most</IRI>
+        <Literal xml:lang="pl">most</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nadbudowa</IRI>
+        <Literal xml:lang="pl">nadbudowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nadziemne_przejscie_dla_pieszych</IRI>
+        <Literal xml:lang="pl">nadziemne przejście dla pieszych</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nastepuje_zmiana</IRI>
+        <Literal xml:lang="pl">następuje zmiana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#obiekt_architektury_ogrodowej</IRI>
+        <Literal xml:lang="pl">obiekt architektury ogrodowej</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#obiekt_budowlany</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć budynek, budowlę bądź obiekt małej architektury, wraz z instalacjami zapewniającymi możliwość użytkowania obiektu zgodnie z jego przeznaczeniem, wzniesiony z użyciem wyrobów budowlanych.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#obiekt_budowlany</IRI>
+        <Literal xml:lang="pl">obiekt budowlany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#obiekt_kontenerowy</IRI>
+        <Literal xml:lang="pl">obiekt kontenerowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#obiekt_kultu_religijnego</IRI>
+        <Literal xml:lang="pl">obiekt kultu religijnego</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#obiekt_liniowy</IRI>
+        <Literal xml:lang="pl">należy przez to rozumieć obiekt budowlany, którego charakterystycznym parametrem jest długość, w szczególności droga wraz ze zjazdami, linia kolejowa, wodociąg, kanał, gazociąg, ciepłociąg, rurociąg, linia i trakcja elektroenergetyczna, linia kablowa nadziemna i, umieszczona bezpośrednio w ziemi, podziemna, wał przeciwpowodziowy oraz kanalizacja kablowa, przy czym kable w niej zainstalowane oraz kable zainstalowane w kanale technologicznym nie stanowią obiektu budowlanego lub jego części ani urządzenia budowlanego</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#obiekt_liniowy</IRI>
+        <Literal xml:lang="pl">obiekt liniowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#obiekt_malej_architektury</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć niewielkie obiekty, a w szczególności:
+a) kultu religijnego, jak: kapliczki, krzyże przydrożne, figury,
+b) posągi, wodotryski i inne obiekty architektury ogrodowej,
+c) użytkowe służące rekreacji codziennej i utrzymaniu porządku, jak:
+piaskownice, huśtawki, drabinki, śmietniki;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#obiekt_malej_architektury</IRI>
+        <Literal xml:lang="pl">obiekt małej architektury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#obiekt_rekreacyjny</IRI>
+        <Literal xml:lang="pl">obiekt rekreacyjny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#obiekt_utrzymania_porzadku</IRI>
+        <Literal xml:lang="pl">obiekt utrzymania porządku</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#obszar_oddzialywania_obiektu</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć teren wyznaczony w otoczeniu obiektu budowlanego na podstawie przepisów odrębnych, wprowadzających związane z tym obiektem ograniczenia w zagospodarowaniu, w tym zabudowy, tego terenu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#obszar_oddzialywania_obiektu</IRI>
+        <Literal xml:lang="pl">obszar oddziaływania obiektu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oczyszczalnia_sciekow</IRI>
+        <Literal xml:lang="pl">oczyszczalnia ścieków</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#odbudowa</IRI>
+        <Literal xml:lang="pl">odbudowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ogrodzenie</IRI>
+        <Literal xml:lang="pl">ogrodzenie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operat_geodezyjny</IRI>
+        <Literal xml:lang="pl">operat geodezyjny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#opis_do_realizacji_obiektu</IRI>
+        <Literal xml:lang="pl">opis do realizacji obiektu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#organ_samorzadu_zawodowego</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć organy określone w ustawie z dnia 15 grudnia 2000 r. o samorządach zawodowych architektów oraz inżynierów budownictwa (Dz. U. z 2016 r. poz. 1725, z 2018 r. poz. 1669 oraz z 2019 r. poz. 577 i 730).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#organ_samorzadu_zawodowego</IRI>
+        <Literal xml:lang="pl">organ samorządu zawodowego</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#parametr_techniczny</IRI>
+        <Literal xml:lang="pl">parametr techniczny</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#parametr_uzytkowy</IRI>
+        <Literal xml:lang="pl">parametr użytkowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pawilon_sprzedazy_ulicznej</IRI>
+        <Literal xml:lang="pl">pawilon sprzedaży ulicznej</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#piaskownica</IRI>
+        <Literal xml:lang="pl">piaskownica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#plac_pod_smietnik</IRI>
+        <Literal xml:lang="pl">plac pod śmietnik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#plac_postojowy</IRI>
+        <Literal xml:lang="pl">plac postojowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#podziemne_przejscie_dla_pieszych</IRI>
+        <Literal xml:lang="pl">podziemne przejście dla pieszych</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pomnik</IRI>
+        <Literal xml:lang="pl">pomnik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#posag</IRI>
+        <Literal xml:lang="pl">posąg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#powierzchnia_calkowita_budynku</IRI>
+        <Literal xml:lang="pl">powierzchnia całkowita budynku</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#powloka_pneumatyczna</IRI>
+        <Literal xml:lang="pl">powłoka pneumatyczna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#pozwolenie_na_budowe</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć decyzję administracyjną zezwalającą na rozpoczęcie i prowadzenie budowy lub wykonywanie robót budowlanych innych niż budowa obiektu budowlanego.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pozwolenie_na_budowe</IRI>
+        <Literal xml:lang="pl">pozwolenie na budowę</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#prawo_do_dysponowania_nieruchomoscia</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć tytuł prawny wynikający z prawa własności, użytkowania wieczystego, zarządu, ograniczonego prawa rzeczowego albo stosunku zobowiązaniowego, przewidującego uprawnienia do wykonywania robót budowlanych.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#prawo_do_dysponowania_nieruchomoscia</IRI>
+        <Literal xml:lang="pl">prawo do dysponowania nieruchomością</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#projekt_budowlany</IRI>
+        <Literal xml:lang="pl">projekt budowlany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#protokol_odbiorow_czesciowych_i_koncowych</IRI>
+        <Literal xml:lang="pl">protokół odbiorów częściowych i końcowych</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#przebudowa</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć wykonywanie robót budowlanych, w wyniku których następuje zmiana parametrów użytkowych lub technicznych istniejącego obiektu budowlanego, z wyjątkiem charakterystycznych parametrów, jak: kubatura, powierzchnia zabudowy, wysokość, długość, szerokość bądź liczba kondygnacji; w przypadku dróg są dopuszczalne zmiany charakterystycznych parametrów w zakresie niewymagającym zmiany granic pasa drogowego.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#przebudowa</IRI>
+        <Literal xml:lang="pl">przebudowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#przejazd</IRI>
+        <Literal xml:lang="pl">przejazd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#przekrycie_namiotowe</IRI>
+        <Literal xml:lang="pl">przekrycie namiotowe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#przeniesienie</IRI>
+        <Literal xml:lang="pl">przeniesienie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#przenosny_wolno_stojacy_maszt_antenowy</IRI>
+        <Literal xml:lang="pl">należy przez to rozumieć wszelkie konstrukcje metalowe bądź kompozytowe, samodzielne bądź w połączeniu z przyczepą, rusztem, kontenerem technicznym, lub szafami telekomunikacyjnymi, posadowione na gruncie, wraz z odciągami,
+balastami i innymi elementami konstrukcji, instalacją radiokomunikacyjną i infrastrukturą zasilającą, przeznaczone do wielokrotnego montażu i demontażu
+bez utraty wartości technicznej</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#przenosny_wolno_stojacy_maszt_antenowy</IRI>
+        <Literal xml:lang="pl">przenośny wolno stojący maszt antenowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#przepust</IRI>
+        <Literal xml:lang="pl">przepust</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#przestrzen</IRI>
+        <Literal xml:lang="pl">przestrzeń</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#przylacze</IRI>
+        <Literal xml:lang="pl">przyłącze</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#remont</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć wykonywanie w istniejącym obiekcie budowlanym robót budowlanych polegających na odtworzeniu stanu pierwotnego, a niestanowiących bieżącej konserwacji, przy czym dopuszcza się stosowanie wyrobów budowlanych innych niż użyto w stanie pierwotnym.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#remont</IRI>
+        <Literal xml:lang="pl">remont</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#roboty_budowlane</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć budowę, a także prace polegające na przebudowie, montażu, remoncie lub rozbiórce obiektu budowlanego.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#roboty_budowlane</IRI>
+        <Literal xml:lang="pl">roboty budowlane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rozbiorka</IRI>
+        <Literal xml:lang="pl">rozbiórka</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rozbudowa</IRI>
+        <Literal xml:lang="pl">rozbudowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rysunek</IRI>
+        <Literal xml:lang="pl">rysunek</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#siec_techniczna</IRI>
+        <Literal xml:lang="pl">sieć techniczna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#siec_uzbrojenia_terenu</IRI>
+        <Literal xml:lang="pl">sieć uzbrojenia terenu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#skladowisko_odpadow</IRI>
+        <Literal xml:lang="pl">składowisko odpadów</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#smietnik</IRI>
+        <Literal xml:lang="pl">śmietnik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stacja_uzdatniania_wody</IRI>
+        <Literal xml:lang="pl">stacja uzdatniania wody</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#strzelnica</IRI>
+        <Literal xml:lang="pl">strzelnica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#teren_budowy</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć przestrzeń, w której prowadzone są roboty budowlane wraz z przestrzenią zajmowaną przez urządzenia zaplecza budowy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#teren_budowy</IRI>
+        <Literal xml:lang="pl">teren budowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#teren_zamkniety</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć teren zamknięty, o którym mowa w przepisach prawa geodezyjnego i kartograficznego.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#teren_zamkniety</IRI>
+        <Literal xml:lang="pl">teren zamknięty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#trakcja_elektroenrgetyczna</IRI>
+        <Literal xml:lang="pl">trakcja elektroenergetyczna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tunel</IRI>
+        <Literal xml:lang="pl">tunel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#tymczasowy_obiekt_budowlany</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć obiekt budowlany przeznaczony do czasowego użytkowania w okresie krótszym od jego trwałości technicznej, przewidziany do przeniesienia w inne miejsce lub rozbiórki, a także obiekt budowlany niepołączony trwale z gruntem, jak: strzelnice, kioski uliczne, pawilony sprzedaży ulicznej i wystawowe, przekrycia namiotowe i powłoki pneumatyczne, urządzenia rozrywkowe, barakowozy, obiekty kontenerowe, przenośne wolno stojące maszty antenowe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tymczasowy_obiekt_budowlany</IRI>
+        <Literal xml:lang="pl">tymczasowy obiekt budowlany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal xml:lang="pl">ustawa z dnia z dnia 7 lipca 1994 r. – Prawo budowlane (Dz. U. z 2020 r. poz. 695, ze zm.)</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#urzadzenie_budowlane</IRI>
+        <Literal xml:lang="pl">Należy przez to rozumieć urządzenia techniczne związane z obiektem budowlanym, zapewniające możliwość użytkowania obiektu zgodnie z jego przeznaczeniem, jak przyłącza i urządzenia instalacyjne, w tym służące oczyszczaniu lub gromadzeniu ścieków, a także przejazdy, ogrodzenia, place postojowe i place pod śmietniki.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#urzadzenie_budowlane</IRI>
+        <Literal xml:lang="pl">urządzenie budowlane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#urzadzenie_instalacyjne</IRI>
+        <Literal xml:lang="pl">urządzenie instalacyjne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#urzadzenie_reklamowe</IRI>
+        <Literal xml:lang="pl">urządzenie reklamowe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#urzadzenie_rozrywkowe</IRI>
+        <Literal xml:lang="pl">urządzenie rozrywkowe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#urzadzenie_sluzace_gromadzeniu_lub_oczyszczaniu_sciekow</IRI>
+        <Literal xml:lang="pl">urządzenie służące gromadzeniu lub oczyszczaniu ścieków</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#urzadzenie_techniczne</IRI>
+        <Literal xml:lang="pl">urządzenie techniczne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wal_przeciwpowodziowy</IRI>
+        <Literal xml:lang="pl">wał przeciwpowodziowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wiadukt</IRI>
+        <Literal xml:lang="pl">wiadukt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wodociag</IRI>
+        <Literal xml:lang="pl">wodociąg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wodotrysk</IRI>
+        <Literal xml:lang="pl">wodotrysk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wolno_stojaca_instalacja_przemyslowa</IRI>
+        <Literal xml:lang="pl">wolno stojąca instalacja przemysłowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wolno_stojaca_trwale_zwiazana_z_gruntem_tablica_reklamowa</IRI>
+        <Literal xml:lang="pl">wolno stojąca trwale związana z gruntem tablica reklamowa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wolno_stojacy_maszt_antenowy</IRI>
+        <Literal xml:lang="pl">wolno stojący maszt antenowy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wyrob_budowlany</IRI>
+        <Literal xml:lang="pl">wyrób budowlany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zbiornik</IRI>
+        <Literal xml:lang="pl">zbiornik</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zjazd</IRI>
+        <Literal xml:lang="pl">zjazd</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
